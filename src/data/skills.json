@@ -1,0 +1,197 @@
+[
+  {
+    "category": "Languages",
+    "skills": [
+      {
+        "name": "Java",
+        "capabilities": [
+          "Write production-grade Java services",
+          "Use Java streams and functional patterns",
+          "Debug JVM performance issues",
+          "Implement concurrent/multi-threaded code",
+          "Work with Java build tools (Maven/Gradle)"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "capabilities": [
+          "Use advanced type system features (generics, mapped types)",
+          "Write type-safe APIs and interfaces",
+          "Configure and maintain tsconfig",
+          "Use TypeScript with React/Node.js",
+          "Migrate JavaScript codebases to TypeScript"
+        ]
+      },
+      {
+        "name": "Python",
+        "capabilities": [
+          "Write production Python applications",
+          "Use async/await patterns",
+          "Work with Python packaging and virtual environments",
+          "Write data processing pipelines",
+          "Use type hints and static analysis"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "capabilities": [
+          "Use modern ES6+ features fluently",
+          "Work with async patterns (Promises, async/await)",
+          "Debug complex runtime issues",
+          "Understand the event loop and execution model",
+          "Write performant, memory-efficient code"
+        ]
+      },
+      {
+        "name": "SQL",
+        "capabilities": [
+          "Write complex queries with joins and subqueries",
+          "Optimize query performance",
+          "Design normalized database schemas",
+          "Write stored procedures and functions",
+          "Work with window functions and CTEs"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Frontend",
+    "skills": [
+      {
+        "name": "React",
+        "capabilities": [
+          "Build complex component hierarchies",
+          "Manage state with hooks and context",
+          "Optimize rendering performance",
+          "Write custom hooks",
+          "Implement code splitting and lazy loading"
+        ]
+      },
+      {
+        "name": "CSS / Styling",
+        "capabilities": [
+          "Implement responsive layouts (Flexbox, Grid)",
+          "Use CSS-in-JS or utility frameworks (Tailwind)",
+          "Create animations and transitions",
+          "Implement design systems and theming",
+          "Handle cross-browser compatibility"
+        ]
+      },
+      {
+        "name": "Testing (Frontend)",
+        "capabilities": [
+          "Write unit tests with Jest/Vitest",
+          "Write integration tests with Testing Library",
+          "Write E2E tests with Cypress/Playwright",
+          "Mock APIs and external dependencies",
+          "Achieve meaningful test coverage"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Backend",
+    "skills": [
+      {
+        "name": "REST APIs",
+        "capabilities": [
+          "Design RESTful API endpoints",
+          "Implement authentication and authorization",
+          "Handle error responses and status codes",
+          "Version APIs appropriately",
+          "Document APIs (OpenAPI/Swagger)"
+        ]
+      },
+      {
+        "name": "Databases",
+        "capabilities": [
+          "Design and optimize schemas",
+          "Write and optimize migrations",
+          "Implement connection pooling and caching",
+          "Handle transactions and concurrency",
+          "Choose between SQL and NoSQL appropriately"
+        ]
+      },
+      {
+        "name": "Microservices",
+        "capabilities": [
+          "Design service boundaries",
+          "Implement inter-service communication",
+          "Handle distributed transactions",
+          "Implement circuit breakers and resilience",
+          "Monitor and debug distributed systems"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "DevOps & Infrastructure",
+    "skills": [
+      {
+        "name": "Docker",
+        "capabilities": [
+          "Write production Dockerfiles",
+          "Use multi-stage builds",
+          "Work with Docker Compose",
+          "Optimize image sizes",
+          "Debug container networking"
+        ]
+      },
+      {
+        "name": "CI/CD",
+        "capabilities": [
+          "Set up CI/CD pipelines from scratch",
+          "Implement automated testing in pipelines",
+          "Configure deployment strategies (blue/green, canary)",
+          "Manage secrets and environment variables",
+          "Optimize pipeline performance"
+        ]
+      },
+      {
+        "name": "Cloud Platforms (AWS/GCP/Azure)",
+        "capabilities": [
+          "Deploy and manage cloud infrastructure",
+          "Use Infrastructure as Code (Terraform/CloudFormation)",
+          "Configure networking and security groups",
+          "Manage costs and optimize spending",
+          "Implement monitoring and alerting"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Practices & Soft Skills",
+    "skills": [
+      {
+        "name": "Git & Version Control",
+        "capabilities": [
+          "Use advanced Git workflows (rebase, cherry-pick)",
+          "Manage branching strategies",
+          "Review code effectively",
+          "Resolve complex merge conflicts",
+          "Write meaningful commit messages"
+        ]
+      },
+      {
+        "name": "Agile / Scrum",
+        "capabilities": [
+          "Facilitate sprint ceremonies",
+          "Break down stories and estimate work",
+          "Manage backlogs and priorities",
+          "Track and improve team velocity",
+          "Adapt processes to team needs"
+        ]
+      },
+      {
+        "name": "System Design",
+        "capabilities": [
+          "Design scalable architectures",
+          "Make appropriate technology choices",
+          "Design for high availability and fault tolerance",
+          "Evaluate trade-offs and constraints",
+          "Create technical design documents"
+        ]
+      }
+    ]
+  }
+]
