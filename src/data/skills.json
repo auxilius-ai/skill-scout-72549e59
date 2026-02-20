@@ -5,51 +5,35 @@
       {
         "name": "Java",
         "capabilities": [
-          "Write production-grade Java services",
-          "Use Java streams and functional patterns",
-          "Debug JVM performance issues",
+          "Java Streams API",
+          "Java Reflection API",
+          "Custom annotations",
           "Implement concurrent/multi-threaded code",
-          "Work with Java build tools (Maven/Gradle)"
+          "Work with Java build tools (Maven/Gradle)",
+          "JVM tuning and GC analysis (heap dumps, JFR, async-profiler)",
+          "Compile-time annotation processing (APT)",
+          "Java Memory Model (happens-before, volatile semantics, lock-free structures)"
         ]
       },
       {
         "name": "TypeScript",
         "capabilities": [
-          "Use advanced type system features (generics, mapped types)",
-          "Write type-safe APIs and interfaces",
-          "Configure and maintain tsconfig",
-          "Use TypeScript with React/Node.js",
-          "Migrate JavaScript codebases to TypeScript"
-        ]
-      },
-      {
-        "name": "Python",
-        "capabilities": [
-          "Write production Python applications",
-          "Use async/await patterns",
-          "Work with Python packaging and virtual environments",
-          "Write data processing pipelines",
-          "Use type hints and static analysis"
-        ]
-      },
-      {
-        "name": "JavaScript",
-        "capabilities": [
-          "Use modern ES6+ features fluently",
-          "Work with async patterns (Promises, async/await)",
-          "Debug complex runtime issues",
-          "Understand the event loop and execution model",
-          "Write performant, memory-efficient code"
+          "Conditional types and template literal types",
+          "Type-level programming (recursive types, infer keyword)",
+          "Custom type guards and assertion functions",
+          "Declaration merging and module augmentation",
+          "Discriminated unions with exhaustive pattern matching",
+          "Building type-safe DSLs and branded types"
         ]
       },
       {
         "name": "SQL",
         "capabilities": [
-          "Write complex queries with joins and subqueries",
-          "Optimize query performance",
-          "Design normalized database schemas",
-          "Write stored procedures and functions",
-          "Work with window functions and CTEs"
+          "Query plan analysis and optimization (EXPLAIN ANALYZE)",
+          "Recursive CTEs and advanced window functions",
+          "Partitioning strategies and index design (covering, partial, composite)",
+          "Lock contention analysis and deadlock resolution",
+          "Materialized views and query rewriting"
         ]
       }
     ]
@@ -60,31 +44,41 @@
       {
         "name": "React",
         "capabilities": [
-          "Build complex component hierarchies",
-          "Manage state with hooks and context",
-          "Optimize rendering performance",
-          "Write custom hooks",
-          "Implement code splitting and lazy loading"
+          "Concurrent rendering and Suspense boundaries",
+          "Server Components and streaming SSR",
+          "Performance profiling (flame graphs, commit tracking)",
+          "Memory leak debugging in component lifecycles",
+          "Building accessible component libraries (ARIA patterns)"
+        ]
+      },
+      {
+        "name": "Angular",
+        "capabilities": [
+          "Custom structural directives",
+          "Dynamic component loading with ViewContainerRef",
+          "Change detection strategies (OnPush, detach/reattach)",
+          "Custom form controls with ControlValueAccessor",
+          "Zone.js internals and zone-less change detection"
         ]
       },
       {
         "name": "CSS / Styling",
         "capabilities": [
-          "Implement responsive layouts (Flexbox, Grid)",
-          "Use CSS-in-JS or utility frameworks (Tailwind)",
-          "Create animations and transitions",
-          "Implement design systems and theming",
-          "Handle cross-browser compatibility"
+          "CSS Container Queries and cascade layers (@layer)",
+          "Complex CSS Grid layouts (subgrid, named grid areas)",
+          "Custom properties for dynamic theming systems",
+          "Performance-aware animations (compositor layers, layout thrashing)",
+          "Accessibility-driven styling (prefers-reduced-motion, forced-colors)"
         ]
       },
       {
         "name": "Testing (Frontend)",
         "capabilities": [
-          "Write unit tests with Jest/Vitest",
-          "Write integration tests with Testing Library",
-          "Write E2E tests with Cypress/Playwright",
-          "Mock APIs and external dependencies",
-          "Achieve meaningful test coverage"
+          "Visual regression testing (Chromatic, Percy)",
+          "Accessibility testing automation (axe-core)",
+          "Custom test harnesses and fixtures for complex async flows",
+          "Contract testing for frontend-backend boundaries",
+          "Performance testing (Lighthouse CI, Web Vitals)"
         ]
       }
     ]
@@ -93,33 +87,34 @@
     "category": "Backend",
     "skills": [
       {
+        "name": "Spring Boot",
+        "capabilities": [
+          "Appropriate use of test slices (@DataJpaTest, @WebMvcTest, @WebFluxTest vs @SpringBootTest)",
+          "Spring Security (custom filters, OAuth2 resource server, method-level security)",
+          "Work with multiple data sources",
+          "Caching strategies (EhCache, Redis, Memcached)",
+          "Custom auto-configuration and starter modules",
+          "Reactive programming with WebFlux and Project Reactor"
+        ]
+      },
+      {
         "name": "REST APIs",
         "capabilities": [
-          "Design RESTful API endpoints",
-          "Implement authentication and authorization",
-          "Handle error responses and status codes",
-          "Version APIs appropriately",
-          "Document APIs (OpenAPI/Swagger)"
+          "HATEOAS and hypermedia-driven API design",
+          "Rate limiting and throttling strategies",
+          "Content negotiation and custom media types",
+          "Idempotency patterns for distributed systems",
+          "ETag/conditional request handling for caching"
         ]
       },
       {
         "name": "Databases",
         "capabilities": [
-          "Design and optimize schemas",
-          "Write and optimize migrations",
-          "Implement connection pooling and caching",
-          "Handle transactions and concurrency",
-          "Choose between SQL and NoSQL appropriately"
-        ]
-      },
-      {
-        "name": "Microservices",
-        "capabilities": [
-          "Design service boundaries",
-          "Implement inter-service communication",
-          "Handle distributed transactions",
-          "Implement circuit breakers and resilience",
-          "Monitor and debug distributed systems"
+          "Query plan analysis and index optimization",
+          "Replication topologies and failover strategies",
+          "Partitioning and sharding strategies",
+          "Lock contention analysis and deadlock resolution",
+          "Zero-downtime migration strategies"
         ]
       }
     ]
@@ -130,31 +125,33 @@
       {
         "name": "Docker",
         "capabilities": [
-          "Write production Dockerfiles",
-          "Use multi-stage builds",
-          "Work with Docker Compose",
-          "Optimize image sizes",
-          "Debug container networking"
+          "BuildKit and build cache optimization",
+          "Security scanning and minimal attack surface (distroless, scratch)",
+          "Container runtime debugging (nsenter, strace in containers)",
+          "Resource constraints and cgroup tuning",
+          "Multi-stage builds with dependency layer caching"
         ]
       },
       {
-        "name": "CI/CD",
+        "name": "Kubernetes",
         "capabilities": [
-          "Set up CI/CD pipelines from scratch",
-          "Implement automated testing in pipelines",
-          "Configure deployment strategies (blue/green, canary)",
-          "Manage secrets and environment variables",
-          "Optimize pipeline performance"
+          "Custom controllers and operators (kubebuilder, operator-sdk)",
+          "Network policies and service mesh configuration (Istio, Linkerd)",
+          "Resource quotas, LimitRanges, and pod scheduling (affinity, taints, tolerations)",
+          "RBAC policies and pod security standards",
+          "Helm chart authoring and Kustomize overlays",
+          "Debugging pod failures (ephemeral containers, kubectl debug, event analysis)"
         ]
       },
       {
         "name": "Cloud Platforms (AWS/GCP/Azure)",
         "capabilities": [
-          "Deploy and manage cloud infrastructure",
-          "Use Infrastructure as Code (Terraform/CloudFormation)",
-          "Configure networking and security groups",
-          "Manage costs and optimize spending",
-          "Implement monitoring and alerting"
+          "Infrastructure as Code (Terraform, CloudFormation, Pulumi)",
+          "VPC design, subnet strategies, and transit gateway architectures",
+          "DNS management (Route 53, Cloud DNS, traffic policies, failover routing)",
+          "IAM policy design (least privilege, cross-account roles, service boundaries)",
+          "Cost optimization and reserved capacity planning",
+          "Multi-region deployment and disaster recovery strategies"
         ]
       }
     ]
@@ -163,33 +160,72 @@
     "category": "Practices & Soft Skills",
     "skills": [
       {
-        "name": "Git & Version Control",
+        "name": "Modern Dev Techniques",
         "capabilities": [
-          "Use advanced Git workflows (rebase, cherry-pick)",
-          "Manage branching strategies",
-          "Review code effectively",
-          "Resolve complex merge conflicts",
-          "Write meaningful commit messages"
-        ]
-      },
-      {
-        "name": "Agile / Scrum",
-        "capabilities": [
-          "Facilitate sprint ceremonies",
-          "Break down stories and estimate work",
-          "Manage backlogs and priorities",
-          "Track and improve team velocity",
-          "Adapt processes to team needs"
+          "TDD",
+          "BDD",
+          "DDD",
+          "SOLID",
+          "Screaming Architecture",
+          "Event Sourcing / CQRS",
+          "Contract-Driven Development (Pact)",
+          "Property-Based Testing (jqwik, QuickCheck)",
+          "Mutation Testing (PIT, Stryker)",
+          "Trunk-Based Development with feature flags",
+          "Hexagonal Architecture (Ports & Adapters)",
+          "ADRs (Architecture Decision Records)"
         ]
       },
       {
         "name": "System Design",
         "capabilities": [
-          "Design scalable architectures",
-          "Make appropriate technology choices",
-          "Design for high availability and fault tolerance",
-          "Evaluate trade-offs and constraints",
-          "Create technical design documents"
+          "Distributed consensus and consistency models (CAP theorem, eventual consistency)",
+          "Event-driven architectures and message broker patterns",
+          "Back-pressure and flow control in distributed systems",
+          "Capacity planning and performance modeling",
+          "Chaos engineering principles"
+        ]
+      },
+      {
+        "name": "Books I have read...",
+        "capabilities": [
+          "Clean Code (Martin)",
+          "The DevOps Handbook (Kim, Humble, Debois, Willis)",
+          "Design Patterns (Gang of Four)",
+          "Refactoring (Fowler)",
+          "Release It! (Nygard)",
+          "Domain-Driven Design (Evans)",
+          "Building Microservices (Newman)",
+          "Designing Data-Intensive Applications (Kleppmann)",
+          "The Pragmatic Programmer (Hunt/Thomas)"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "AI & Machine Learning",
+    "skills": [
+      {
+        "name": "Machine Learning",
+        "capabilities": [
+          "Feature engineering and selection techniques",
+          "Hyperparameter tuning (Bayesian optimization, Optuna)",
+          "Model interpretability and explainability (SHAP, LIME)",
+          "MLOps pipelines (MLflow, Kubeflow, feature stores)",
+          "Handling class imbalance and data drift detection",
+          "Model compression (quantization, pruning, knowledge distillation)"
+        ]
+      },
+      {
+        "name": "Generative AI",
+        "capabilities": [
+          "Fine-tuning LLMs (LoRA, QLoRA, PEFT)",
+          "RAG architectures (chunking strategies, embedding models, vector databases)",
+          "Building agent frameworks (tool use, function calling, orchestration)",
+          "LLM evaluation and benchmarking",
+          "Inference optimization (KV caching, batching strategies)",
+          "Guardrails and safety (content filtering, output validation)",
+          "Knowledge graph retrieval (GraphRAG)"
         ]
       }
     ]
