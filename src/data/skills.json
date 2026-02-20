@@ -117,7 +117,7 @@
           "Caching strategies (EhCache, Redis, Memcached)",
           "Custom auto-configuration and starter modules",
           "Reactive programming with WebFlux and Project Reactor",
-          "Micrometer metrics and Prometheus monitoring",
+          "Micrometer metrics and Prometheus monitoring"
         ]
       },
       {
