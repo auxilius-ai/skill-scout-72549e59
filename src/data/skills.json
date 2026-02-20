@@ -18,6 +18,10 @@
       {
         "name": "TypeScript",
         "capabilities": [
+          "Generic types and advanced generic constraints",
+          "Functional programming patterns (composition, immutability, higher-order functions)",
+          "Build-time vs runtime type safety (type erasure, runtime validation with Zod/io-ts)",
+          "Dynamic derived types (mapped types, key remapping, template literal inference)",
           "Conditional types and template literal types",
           "Type-level programming (recursive types, infer keyword)",
           "Custom type guards and assertion functions",
@@ -42,8 +46,26 @@
     "category": "Frontend",
     "skills": [
       {
+        "name": "Frontend Tooling",
+        "capabilities": [
+          "Bundler configuration and optimization (Webpack, Vite, esbuild, Turbopack)",
+          "Testing frameworks and strategies (Jest, Vitest, Cypress, Playwright)",
+          "Design system architecture (dynamic theming, internationalization, accessibility)",
+          "Mock Service Worker (MSW) for local development and test data mocking"
+        ]
+      },
+      {
         "name": "React",
         "capabilities": [
+          "Composition over inheritance (render props, compound components, HOCs)",
+          "Built-in hooks (useState, useEffect, useMemo, useCallback, useRef)",
+          "Custom hooks for shared logic and side effects",
+          "Nested context patterns and context composition",
+          "React 19 compiler and automatic memoization",
+          "State management approaches (hooks, Context API, Redux, Recoil, Zustand)",
+          "Functional programming patterns (pure components, immutable state, declarative rendering)",
+          "React Portals for modal and overlay rendering",
+          "TanStack React Query for server state management and caching",
           "Concurrent rendering and Suspense boundaries",
           "Server Components and streaming SSR",
           "Performance profiling (flame graphs, commit tracking)",
@@ -94,7 +116,8 @@
           "Work with multiple data sources",
           "Caching strategies (EhCache, Redis, Memcached)",
           "Custom auto-configuration and starter modules",
-          "Reactive programming with WebFlux and Project Reactor"
+          "Reactive programming with WebFlux and Project Reactor",
+          "Micrometer metrics and Prometheus monitoring",
         ]
       },
       {
@@ -122,6 +145,15 @@
   {
     "category": "DevOps & Infrastructure",
     "skills": [
+      {
+        "name": "CI/CD Pipelines",
+        "capabilities": [
+          "Linter configuration and enforcement (ESLint, Prettier, Stylelint)",
+          "Build pipeline optimization (caching, parallelization, incremental builds)",
+          "Test automation tiers (unit, end-to-end, contract testing)",
+          "Static code analysis and code smell detection (SonarQube, CodeClimate)"
+        ]
+      },
       {
         "name": "Docker",
         "capabilities": [
@@ -162,10 +194,10 @@
       {
         "name": "Modern Dev Techniques",
         "capabilities": [
-          "TDD",
-          "BDD",
-          "DDD",
-          "SOLID",
+          "Test-Driven Development (TDD)",
+          "Behavior-Driven Development (BDD)",
+          "Domain-Driven Design (DDD)",
+          "SOLID principles (single responsibility, open-closed, Liskov, interface segregation, dependency inversion)",
           "Screaming Architecture",
           "Event Sourcing / CQRS",
           "Contract-Driven Development (Pact)",
@@ -173,7 +205,23 @@
           "Mutation Testing (PIT, Stryker)",
           "Trunk-Based Development with feature flags",
           "Hexagonal Architecture (Ports & Adapters)",
-          "ADRs (Architecture Decision Records)"
+          "Pair programming and mob programming practices",
+          "Code review workflows (AI-assisted pre-review followed by human review)"
+        ]
+      },
+      {
+        "name": "Architecture & Documentation",
+        "capabilities": [
+          "Architecture documentation (Arc42)",
+          "Architecture modeling (C4 model, UML)",
+          "Architecture Decision Records (ADRs)",
+          "Event Storming and domain storytelling workshops",
+          "Wardley Mapping for strategic technology positioning",
+          "Architecture fitness functions (automated constraint validation)",
+          "Technical debt identification and management strategies",
+          "Dependency analysis and coupling metrics",
+          "Architecture testing with ArchUnit",
+          "Modular monolith validation with Spring Modulith"
         ]
       },
       {
@@ -185,26 +233,26 @@
           "Capacity planning and performance modeling",
           "Chaos engineering principles"
         ]
-      },
-      {
-        "name": "Books I have read...",
-        "capabilities": [
-          "Clean Code (Martin)",
-          "The DevOps Handbook (Kim, Humble, Debois, Willis)",
-          "Design Patterns (Gang of Four)",
-          "Refactoring (Fowler)",
-          "Release It! (Nygard)",
-          "Domain-Driven Design (Evans)",
-          "Building Microservices (Newman)",
-          "Designing Data-Intensive Applications (Kleppmann)",
-          "The Pragmatic Programmer (Hunt/Thomas)"
-        ]
       }
     ]
   },
   {
     "category": "AI & Machine Learning",
     "skills": [
+      {
+        "name": "AI-Assisted Development",
+        "capabilities": [
+          "Agent-assisted code generation (harnesses and models used: Claude Code, Codex, Copilot)",
+          "Best practices for AI-assisted development workflows",
+          "Alignment and steering techniques for code generation agents",
+          "Guardrails and output validation for generated code",
+          "Modes of operation (code completion, module development, feature implementation, one-shotting)",
+          "Custom skills and specialized agent configurations",
+          "Specialized agents for testing, reviewing, and deployment tasks",
+          "Context engineering (prompt design, file selection, conversation management)",
+          "Model Context Protocol (MCP) for tool integration and extensibility"
+        ]
+      },
       {
         "name": "Machine Learning",
         "capabilities": [
