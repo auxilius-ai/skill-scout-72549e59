@@ -87,7 +87,7 @@ export default function AssessmentPage() {
   };
 
   const getEligibleSkills = () => {
-    const eligible: RatingLevel[] = ["advanced", "expert"];
+    const eligible: RatingLevel[] = ["intermediate", "advanced", "expert"];
     return categories.flatMap((cat) =>
       cat.skills
         .filter((s) => eligible.includes(ratings[s.key]?.rating as RatingLevel))

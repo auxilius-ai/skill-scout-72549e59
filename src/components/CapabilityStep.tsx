@@ -21,7 +21,7 @@ export function CapabilityStep({ skills, capabilities, onChange, onNext, onBack 
     return (
       <div className="animate-fade-in text-center max-w-xl mx-auto">
         <p className="text-muted-foreground mb-6">
-          No skills rated Advanced or above — you can skip this step.
+          No skills rated Intermediate or above — you can skip this step.
         </p>
         <div className="flex justify-between">
           <Button variant="outline" onClick={onBack}>Back</Button>
@@ -36,7 +36,7 @@ export function CapabilityStep({ skills, capabilities, onChange, onNext, onBack 
       <div className="mb-6 text-center">
         <h2 className="text-xl font-bold text-foreground mb-1">Specific Capabilities</h2>
         <p className="text-sm text-muted-foreground">
-          For skills you rated Advanced or above, check the capabilities that apply.
+          For skills you rated Intermediate or above, check the capabilities that apply.
         </p>
       </div>
 
